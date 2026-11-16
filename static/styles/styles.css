@@ -4,33 +4,8 @@
     margin-right: auto;
 }
 
-.hello-container img {
-    width: 300px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(29, 245, 234);
-    border-radius: 50px;
-}
-
-.inform {
-    width: 300px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(29, 245, 234);
-    border-radius: 50px;
-    text-align: center;
-}
-
-.navbar-brand {
-    color: rgb(252, 139, 1);
-}
-
 .nav-link {
-    color: aquamarine;
-}
-
-.navbar-nav .nav-link.active {
-    color: bisque;
+    color: rgb(256, 256, 256);
 }
 
 .navbar-brand img {
@@ -38,6 +13,4 @@
     border-radius: 10px;
 }
 
-.navbar-toggler {
-    background-color: bisque;
-}
+

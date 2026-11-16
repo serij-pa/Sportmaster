@@ -12,67 +12,85 @@
 
 <body>
     <header class="fixed-container">
-        <nav class="navbar navbar-expand-lg bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="static/images/logo_sport1.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="glavnaja.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="glavnaja.html">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown link
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+        <div class="shadow p-0 mb-5 bg-body-tertiary rounded">
+            <nav class="navbar navbar-expand-md bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="static/images/logo_sport1.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="glavnaja.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="glavnaja.html">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <section class="fixed-container">
-        <div>
-            <div class="hello-container">
-                <center>
-                    <a href="#">
-                        <img src="static/images/admin.jpeg" alt="Тут должна быть картинка">
-                    </a>
-                    <div class="inform">
-                        <h3>
-                            Добрый день!
-                        </h3>
-                        <p>
-                            Этот портал создвн в помощь как начинающим сотрудникам, так и для знатаков своего дела.</p>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-2" style="background: red;">
+                    Правый
+                </div>
+                <div class="col-md-8 ">
+                    <div class="container-fluid">
+                        <div class="card mb-3 shadow p-3 mb-5 bg-body-tertiary rounded" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="static/images/admin.jpeg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Добрый день !</h5>
+                                        <p class="card-text">
+                                            Портал создан, чтобы помочь новым сотрудникам уверенно стартовать, а опытным
+                                            — свежо помнить всё важное. Здесь всегда будет актуальная информация обо
+                                            всех изменениях.</p>
+                                        <a href="glavnaja.html" class="btn btn-primary">Начнем >>></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button class="inform">
-                        <a href="glavnaja.html">
-                            <p>Начнем.</p>
-                        </a>
-                    </button>
-                </center>
+                </div>
+                <div class="col-md-2" style="background: red;">
+                        Левый
+                </div>
             </div>
         </div>
     </section>
 
     <footer class="fixed-container">
-        <p>подвал</p>
+        <!-- <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+            <p>подвал</p>
+            <input type="date"><br>
+            <input type="time"><br>
+            <input type="datetime-local">
+        </div> -->
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
